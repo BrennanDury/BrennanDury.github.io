@@ -173,10 +173,6 @@ p {
   color: var(--text);
 }
 
-.item > p:last-child {
-  margin-top: 8px;
-}
-
 .link-list {
   margin: 0;
   padding: 0;
