@@ -3,11 +3,8 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta
-      name="description"
-      content="Brennan Dury is a mathematics Ph.D. student and machine learning researcher working on singular learning theory, interpretability, and scientific machine learning."
-    />
-    <title>Brennan Dury</title>
+    <meta name="description" content="Selected software projects by Brennan Dury." />
+    <title>Code · Brennan Dury</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -23,28 +20,32 @@
     </header>
 
     <nav aria-label="Site navigation">
-      <a href="index.html" aria-current="page">About</a>
+      <a href="index.html">About</a>
       <a href="research.html">Research</a>
       <a href="experience.html">Experience</a>
       <a href="education.html">Education</a>
-      <a href="code.html">Code</a>
+      <a href="code.html" aria-current="page">Code</a>
       <a href="writing.html">Writing</a>
     </nav>
 
     <main>
-      <section class="intro" aria-labelledby="about-heading">
-        <h2 id="about-heading" class="section-label">About</h2>
-        <p class="lead">
-          I am a mathematics Ph.D. student at the University of Wisconsin-Madison,
-          working at the intersection of mathematics and machine learning. In my
-          master’s thesis, I developed machinery to study Laplace integrals with
-          several energy functions, which appear in Bayesian statistics. My current
-          work develops consequences for singular learning theory. I have also
-          worked on neural network interpretability, scientific transformers,
-          manifold learning, and Bayesian models for biological data.
-        </p>
+      <section aria-labelledby="code-heading">
+        <h2 id="code-heading" class="section-label">Selected code</h2>
+        <ul class="link-list">
+          <li>
+            <a href="https://github.com/eg-trim/trim-transformer">Trim Transformer</a>
+            <span>Linear-complexity transformer package with key-value caching and Triton kernels.</span>
+          </li>
+          <li>
+            <a href="https://github.com/settylab/2for1separator">2for1separator</a>
+            <span>Bayesian software for deconvolving Cut&amp;Tag2for1 genomic data.</span>
+          </li>
+          <li>
+            <a href="https://github.com/settylab/Mellon">Mellon</a>
+            <span>Bayesian non-parametric density estimation for single-cell data.</span>
+          </li>
+        </ul>
       </section>
-
     </main>
 
     <footer>

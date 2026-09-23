@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Research by Brennan Dury in singular learning theory, multivariate residues, neural networks, and Bayesian modeling."
+    />
+    <title>Research · Brennan Dury</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div>
+        <h1><a class="site-title" href="index.html">Brennan Dury</a></h1>
+        <p class="subtitle">Mathematics Ph.D. student and machine learning researcher</p>
+      </div>
+      <div class="contact-links">
+        <a href="mailto:brennandury@gmail.com">Email</a>
+        <a href="https://github.com/BrennanDury">GitHub</a>
+      </div>
+    </header>
+
+    <nav aria-label="Site navigation">
+      <a href="index.html">About</a>
+      <a href="research.html" aria-current="page">Research</a>
+      <a href="experience.html">Experience</a>
+      <a href="education.html">Education</a>
+      <a href="code.html">Code</a>
+      <a href="writing.html">Writing</a>
+    </nav>
+
+    <main>
+      <section aria-labelledby="research-heading">
+        <h2 id="research-heading" class="section-label">Research</h2>
+
+        <article class="item">
+          <h3>
+            <a href="https://www.nature.com/articles/s41592-024-02302-w">
+              Quantifying cell-state densities in single-cell phenotypic landscapes using Mellon
+            </a>
+          </h3>
+          <p class="item-meta">Nature Methods, 2024 · Co-author</p>
+        </article>
+
+        <article class="item">
+          <h3>
+            <a href="https://arxiv.org/pdf/2402.04362">
+              Neural networks learn statistics of increasing complexity
+            </a>
+          </h3>
+          <p class="item-meta">Extended version of an ICML 2024 paper · Co-author</p>
+        </article>
+
+        <article class="item">
+          <h3>
+            <a href="https://drive.google.com/file/d/1RP3pM7kxNy4GGRwHB_O8weZSkHNBuHcA/view?usp=sharing">
+              Multivariate zeta functions, Laplace integrals, and singular learning theory
+            </a>
+          </h3>
+          <p class="item-meta">Master's thesis, 2026</p>
+        </article>
+
+        <div class="research-progress" aria-labelledby="research-progress-heading">
+          <h2 id="research-progress-heading" class="section-label">Work in progress</h2>
+          <p class="research-note">
+            Recently, I have come to the view that scaling mathematical research in the LLM era,
+            especially for AI safety, needs to move faster than academia traditionally does. I have
+            therefore decided to show my results at an earlier stage of the paper-development process
+            than is typical. I am developing the subproblems involved in my master’s thesis into
+            independent papers. Here is the current status of the subproblems I have developed to the
+            standard I am currently setting for displaying my work.
+          </p>
+
+          <article class="draft-item">
+            <h3>
+              <a href="https://drive.google.com/file/d/1pygGeC3wxmzFvNrCNVvp8ZjXec-koGT8/view?usp=sharing">
+                Affine Residues and Chamber Jumps for Hyperplane Arrangements
+              </a>
+            </h3>
+            <p>
+              My master’s thesis generalizes singular learning theory to handle finitely many energy
+              (loss) functions. The increased difficulty is the difference between single-variable and
+              multivariable complex analysis. To handle multivariate residues, I develop a residue theory
+              of the cohomology of hyperplane arrangements.
+            </p>
+          </article>
+
+          <article class="draft-item">
+            <h3>
+              <a href="https://drive.google.com/file/d/1RK0OyZBtW_FhZDNQmJg4O4p9OX8kErOL/view?usp=sharing">
+                Acyclic traversal of affine hyperplane arrangements
+              </a>
+            </h3>
+            <p>
+              While the residue paper provides a jump formula for contour integrals across faces of the
+              affine hyperplane arrangements, I need to apply the jump formula many times to make remainder
+              terms small. Naive approaches may jump cyclically, making the resulting iterated jump formula
+              useless. Here I set up the purely affine-geometric problem of constructing a strategy that
+              avoids such cycles.
+            </p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        <a href="mailto:brennandury@gmail.com">brennandury@gmail.com</a>
+        <span aria-hidden="true"> · </span>
+        <a href="https://github.com/BrennanDury">github.com/BrennanDury</a>
+      </p>
+    </footer>
+  </body>
+</html>
