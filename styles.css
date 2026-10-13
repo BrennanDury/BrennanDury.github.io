@@ -189,6 +189,14 @@ p {
   color: var(--text);
 }
 
+.agenda p {
+  margin: 0 0 18px;
+}
+
+.agenda .equation {
+  margin: 24px 0;
+}
+
 .research-progress {
   margin-top: 72px;
 }
