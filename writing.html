@@ -37,18 +37,48 @@
               Meromorphic Continuation of Archimedean Zeta Functions
             </a>
             <span>Expository paper, 2024.</span>
+            <p>
+              One of the key steps in singular learning theory is to show that the zeta function
+              meromorphically continues to C. I show a proof of this step, and explain how
+              elementary local properties of holomorphic functions can prove the result in the one
+              dimensional case, while resolution of singularities more powerfully controls the local
+              behavior in high dimensions.
+            </p>
           </li>
           <li>
             <a href="https://blog.eleuther.ai/free-form-leace/">
               Free Form Least-Squares Concept Erasure Without Oracle Concept Labels
             </a>
             <span>EleutherAI blog post, 2024.</span>
+            <p>
+              I worked on concept editing at Eleuther AI. Here I derive the least squares optimal
+              edit to a random variable such that the new random variable is uncorrelated with a
+              label random variable. In this version, we require the edit to be a function of the
+              unedited representation, without access to the labels. Consequently, this edit
+              eliminates any linearly represented information, and cannot inject any additional
+              non-linearly represented information into the representation.
+            </p>
           </li>
           <li>
             <a href="https://github.com/yashmanne/intra-distillation/blob/main/Intra-Distillation-Reproducibility.pdf">
               The Importance of Being Parameters
             </a>
             <span>Distillation reproduction study, 2023.</span>
+            <p>
+              Neural integral equations proposes a method for predicting trajectories based on
+              modeling the physical system by an integral equation, and using the transformer to
+              model the corresponding integral operator. The algorithm applies the transformer
+              iteratively, and I noticed that if you unrolled the iterations, the full computational
+              graph can be viewed (almost) as one large transformer. Then there were exactly three
+              independent changes from the obvious approach: treat the evolving state vector like a
+              video and train an autoregressive video transformer. I thought these changes needed to
+              be tested independently to understand why the algorithm performed well. I found that
+              the dominant contribution was due to eliminating the distributional shift between
+              training and test time that occurs in methods that autoregressively sample,
+              conditional on their previous outputs instead of the ground truth, at test time.
+              Somewhat surprisingly, I also found a small benefit of applying the same transformer
+              iteratively instead of letting the weights for different passes be untied.
+            </p>
           </li>
         </ul>
       </section>
